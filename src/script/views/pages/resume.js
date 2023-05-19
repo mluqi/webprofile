@@ -2,7 +2,7 @@ const Resume = {
   async render() {
     return `
     <style>
-    @media (min-width: 257px) {
+    @media (max-width: 566px) {
         .dwnld{
             font-size: 12px;
         }

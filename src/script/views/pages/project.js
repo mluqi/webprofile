@@ -2,12 +2,9 @@ const Project = {
     async render() {
       return `
       <style>
-      @media (min-width: 257px) {
+      @media (max-width: 566px) {
         .para{
             font-size: 12px;
-        }
-        .prtitle{
-            font-weight: bolder;
         }
       }
       </style>
