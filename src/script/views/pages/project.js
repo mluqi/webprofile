@@ -1,6 +1,16 @@
 const Project = {
     async render() {
       return `
+      <style>
+      @media (min-width: 257px) {
+        .para{
+            font-size: 12px;
+        }
+        .prtitle{
+            font-weight: bolder;
+        }
+      }
+      </style>
                 <nav-bar></nav-bar>
                   <!-- Projects Section-->
                   <section class="py-5">
@@ -15,8 +25,8 @@ const Project = {
                                       <div class="card-body p-0">
                                           <div class="d-flex align-items-center">
                                               <div class="p-5">
-                                                  <h2 class="fw-bolder">Color Blind Test</h2>
-                                                  <p>This website makes it easy for users to do online color blindness testing with a simple and easy-to-understand display. With this website, it is hoped that people who want to do a color blindness test no longer need to buy tools or come to the doctor and can simply access it online anywhere, anytime and using any device. Of course, we hope that this website can facilitate and educate users in the importance of maintaining eye health.
+                                                  <h2 class=prtitle fw-bolder">ColorBlind Test</h2>
+                                                  <p class="para">This website makes it easy for users to do online color blindness testing with a simple and easy-to-understand display.
                                                   </p>
                                               </div>
                                               <img class="img-fluid" src="../src/assets/colorblind.png" alt="..." />
@@ -28,8 +38,8 @@ const Project = {
                                       <div class="card-body p-0">
                                           <div class="d-flex align-items-center">
                                               <div class="p-5">
-                                                  <h2 class="fw-bolder">Face Detection</h2>
-                                                  <p>This application uses the python programming language and uses the haascade method to recognize and detect faces using a webcam or photo. This application uses opencv library, dlib as a library to detect faces, tkinter as a gui, and PIL to display the image in the application window.</p>
+                                                  <h2 class="prtitle fw-bolder">Face Detection</h2>
+                                                  <p class="para">This application uses the python programming language and uses the haascade method to recognize and detect faces using a webcam or photo. This application uses opencv library, dlib as a library to detect faces, tkinter as a gui, and PIL to display the image in the application window.</p>
                                               </div>
                                               <img class="img-fluid" src="../src/assets/facedetection.png" alt="..." />
                                           </div>
@@ -40,8 +50,8 @@ const Project = {
                                       <div class="card-body p-0">
                                           <div class="d-flex align-items-center">
                                               <div class="p-5">
-                                                  <h2 class="fw-bolder">MakanYuk!</h2>
-                                                  <p>a website to search for restaurants and can save a list of restaurants or cafes into a favorite page. this website was built using javascript programming language, node js and uses basic html, css, node package manager. some of these websites are already responsive for mobile devices.</p>
+                                                  <h2 class="prtitle fw-bolder">MakanYuk!</h2>
+                                                  <p class="para">a website to search for restaurants and can save a list of restaurants or cafes into a favorite page. this website was built using javascript programming language, node js and uses basic html, css, node package manager. some of these websites are already responsive for mobile devices.</p>
                                               </div>
                                               <img class="img-fluid" src="../src/assets/restaurants-apps.png" alt="..." />
                                           </div>

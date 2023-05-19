@@ -1,6 +1,13 @@
 const Resume = {
   async render() {
     return `
+    <style>
+    @media (min-width: 257px) {
+        .dwnld{
+            font-size: 12px;
+        }
+      }
+    </style>
             <nav-bar></nav-bar>
                   <!-- Page Content-->
                   <div class="container px-5 my-5">
@@ -15,7 +22,7 @@ const Resume = {
                                       <h2 class="text-primary fw-bolder mb-0">Experience</h2>
                                       <!-- Download resume button-->
                                       <!-- Note: Set the link href target to a PDF file within your project-->
-                                      <a class="btn btn-primary px-4 py-3" href="https://doc-0o-3g-docs.googleusercontent.com/docs/securesc/rm59hgf99bo7m7j143bmt9ftkft6j6go/ha5s8r93292tpk9n53sspqtmb40mqd6u/1684468350000/05817756378559090423/05817756378559090423/1ckWZT1e63yUrQyxdMFxgFA6kZ0a8zIFy?e=download&ax=ADWCPKCU65kYCyThQFYkiMZHfy41cRUiHCuE9hn5QwukQnShngUaEfpCAZZlXUg9QT_OHFJ9bF09YiOcIGsl7QQwdODjPkXWTYioNb2T98C67i6xzFeNON_7sFCZPPiFCPRStQqVNbfMBC60zzQWGpG7EHW9gU7MiNZmnsyKJ9-H4YUZVkEn4FeNIkfqMSzCtxK2unbkF0JTkHqqBBcHqQQqOx_nPyX1ZAMLBTxqVTqT8oTG8Z3KUTZRsqWfWCh45VxW9myQkA537balHOT6CUd_AiEo-LndYUqNa6HYxZ1IT5L7WHvfq1kHlwvxKTeE06ax9jYq7WGLkqh4d0bIJK5FzBUd9FFcUVI--6n4RTJoHKJbPriBjSvsfaxYa-xSDpA0nXbDVEpRS1N9DhIQLo4B9tFn9yaoltt7i79tq-T36SCMJk_L9aGpY5YkeQjnXhZwHtEmdaMI9wDUSOTBzrio0taOpIbSPMa7zfKE4sW_DA3xkeQyRI_1wykmrkQuAyrpAywxiLVq5ZVacK-EOauRrWLx7tyxJcn2yNmOv1O1H8yvvZ-sMmrj7CuhImNHXGUZlBlQ7W7cF2Vh8qsNdAZBTo5sGkTxS4VnX2xk6XBpflOmrWF1iMwk6D4bDK6dHSavz5WnKZPaoVNm0VDPTTPouVvY-vOrUL21DNarCFQxsWX1Xhpiq4xHylbtLdL1ctTiizG6POfyx0qjBhISMPbIZ5hN1u-W75O88sqpOYycEAYxa5QukVgCilth0JUaRl7YY5dx9uXBNvBr4XwQGYwSnkdToNkG7E0MIXgxPi5ZlG6MrPOwkakbrH8s4J2ypGKkcsHS1hIZu0LbEynItyxNCtp5yxI9PToL_CplDV1ujCe25cGUV30dU2Tzneqe-3ryzsJm0S7wa45CUVEiT5AKCi5iFA3PwFj_bNQLkvvWWY-rGiqMYtH3ckjpp5mFQJjls-sCjE1-Eg&uuid=c8050a4a-1cd1-488e-aa1c-20e4b8e41d1a&authuser=0&nonce=i7dqdobh04usm&user=05817756378559090423&hash=dtanq2qorv3s1af6epndvi270fvq9n3b">
+                                      <a class="dwnld btn btn-primary px-4 py-3" href="https://drive.google.com/file/d/1ckWZT1e63yUrQyxdMFxgFA6kZ0a8zIFy/view?usp=share_link">
                                           <div class="d-inline-block bi bi-download me-2"></div>
                                           Download Resume
                                       </a>
